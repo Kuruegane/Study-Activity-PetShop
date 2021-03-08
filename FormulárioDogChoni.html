@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Formulário Pet Shop Dog Choni</title>
+<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<style>
+	*{
+		box-sizing: border-box;
+	}
+	
+	/* Style the header */
+    header {
+	background-color: #DEB887;
+	padding: 5px;
+	text-align: center;
+	font-size: 30px;
+	color: #000000;
+	}
+	
+nav {
+  float: left;
+  width: 30%;
+  height: 300px;
+  background: #FF7F50;
+  padding: 5px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #FF7F50;
+  height: 300px;
+}
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color: #7bc5ff;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+</style>
+
+
+</head>
+<body>
+
+	<header>
+		<img src="dogchoni.jpg"><h2>Pet Shop Dog Choni</h2>
+	</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="PetShop DogChoni.html">Home</a></li>	
+      <li><a href="Contato.html">Contato</a></li>
+      <li><a href="Animais.html">Animais</a></li>
+      <li><a href="Alimentos.html">Alimentos</a></li>
+	  <li><a href="FormulárioDogChoni.html">Formulário</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h2>Cadastre seu Pet!</h2>
+<form action="/cadastro.php" method="POST">
+ <!-- criando campo de senha em html -->
+ <div style="padding: 4px">
+	Nome: <input type="text" name="nome" id="nome"> 
+</div>	
+	
+	<div style="padding 4px">
+	Senha: <input type="password" name="senha" id="senha" 
+	value="" style="background-color:#ccc;">
+	
+	
+ </div>
+ <div style="padding: 4px">
+Confirmar Senha:<input type="password" name="senhab" id="senhab" value="">
+ </div>
+ 
+ <div>
+   Porte: <select name="estado" id="estado">
+		<option value="PP">Pequeno Porte</option>
+		<option value="MP">Médio Porte</option>
+		<option value="GP">Grande Porte</option>
+	</select>
+ </div>
+</form>
+		<div><br><button><a href="PetShop DogChoni.html">Cadastrar</a></button></div>
+	</article>
+</section>
+
+<footer>
+<p> Siga nos nas Rede Sociais!!!</p>
+  <a href="https://www.facebook.com/dogchoni/" target="_blank" title="www.facebook.com/dogchoni" class="icons-redes">
+<img src="https://www.dogchoni.com.br/assets/imgs/icon-facebook.png" alt="Facebook Dogchoni">
+
+<a href="https://www.youtube.com/channel/UCOTfD2xbv7Ua31eJbziO1XQ" target="_blank" title="www.youtube.com/dogchoni" class="icons-redes">
+<img src="https://www.dogchoni.com.br/assets/imgs/icon-youtube.png" alt="Youtube Dogchoni">
+
+<a href="https://www.instagram.com/dogchoni/" target="_blank" title="www.instagram.com/dogchoni" class="icons-redes">
+<img src="https://www.dogchoni.com.br/assets/imgs/icon-instagram.png" alt="Instagram Dogchoni">
+
+</body>
+</footer>
+</html>
